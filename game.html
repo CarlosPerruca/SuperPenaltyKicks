@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Super Penalty Kicks</title>
-    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/begin.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/lux/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/begin.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="start-screen" id="game-screen">
+      <div class="start_btn">
+        <a href="index.html">Press here to start</a>
+      </div>
 
-    <br><br><br>
-    <div class="start-screen" id="remove-screen">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <a href="index.html">Let the shootout begin!</a>
-        <br><br>
-        <div class="instruccionsp" id="instructions">
-            <p>Use the arrow<br>keys to shoot<br>giving it the<br>MAX POWER</p>
-            <div class="image" id="image-teclas">
-                <img src="img/arrows copia.png" alt="teclas">
-            </div>
+      <div class="instructions">
+        <p>Use the arrow keys to shoot giving it theMAX POWER</p>
+      </div>
 
-        </div>
-        
-        </body>
+      <div class="arrows_img">
+        <img src="img/arrows copia.png" alt="arrow keys image" />
+      </div>
+    </div>
+  </body>
 
-<!-- TODO LIST:
+  <!-- TODO LIST:
+DONE-Ordenar clases en css
 -Mismo tamaño y posición a la zona de juego
+-Renombrar clases y variables
 -Botones de empezar y volver al menú 
 -Favicon
 -Formato de la pantalla como en GBC
 -Responsive y que la pantalla sea horizontal
 -Cambiar colores a turnos y goles
--->
-
-</html>
+--></html>
