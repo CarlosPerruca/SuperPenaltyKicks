@@ -21,9 +21,7 @@ class Goalkeeper {
 
         this.throwArray = [
             this.throwRight,
-
             this.throwLeft,
-
             this.throwUp
         ]
 
