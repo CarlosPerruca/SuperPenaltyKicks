@@ -1,22 +1,21 @@
 body {
   margin: 0;
-  padding: 0;
+  padding-top: 2.5%;
   height: 100vh;
-
   background-image: url(/img/gbcBG.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-.canvasPosition {
-  display: flex;
-  justify-content: center;
-  padding-top: 2.5%;
-}
-#game-screen {
+.instructions {
+  width: 50%;
+  background-color: yellowgreen;
   text-align: center;
-  /* margin-top: 20px; */
-  text-shadow: 2px 8px 6px white, 0px -5px 35px white;
+}
+.instructions p {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  font-size: 1.1em;
 }
 
 .key_image {
@@ -27,22 +26,20 @@ body {
   margin: auto;
 }
 
-p {
-  color: white;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  font-size: 14px;
-  text-shadow: 2px 8px 6px black, 0px -55px 35px black;
-}
-
 .start_btn {
   text-decoration-line: none;
-  font-size: 4em;
+  font-size: 2em;
   font-family: "Press Start 2P", cursive;
-  padding-top: 3em;
+  padding-top: 9em;
   text-transform: uppercase;
+  text-align: center;
 }
+.start_btn a {
+  color: aliceblue;
+  text-decoration: none;
+  box-shadow: none;
+}
+
 .start-screen {
   background-image: url("../img/startscreen.png");
   background-size: cover;
