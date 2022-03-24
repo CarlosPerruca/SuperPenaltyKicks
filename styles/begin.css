@@ -1,70 +1,58 @@
 * {
-      font-family: 'Press Start 2P', cursive;
-    }
+  font-family: "Press Start 2P", cursive;
+}
 
 body {
-    background-image: url('/img/bodyBG.png');
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 
-        /* FONDO DE GAME BOY */
-        /* margin: 0;
-        padding: 0;
-        height: 100vh;
-        
-        background-image: url(/img/gbcBG.png);
-        background-repeat:no-repeat;
-        background-size:100% 100%; */
+  background-image: url(/img/gbcBG.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.canvasPosition {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5%;
 }
 
 .start-screen {
-    background-image: url("../img/startscreen.png");
-    background-size: cover;
-    width: 800px;
-    height: 600px;
-    margin: 0 auto;
-    
+  background-image: url("../img/startscreen.png");
+  background-size: cover;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
 }
 
-/* h6 {
-    color: black;
-    font-size: 12px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
-} */
-
-
 p {
-    color: white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 14px;
-    text-shadow:2px 8px 6px black,
-    0px -55px 35px black;
-} 
-.start-screen a{
-    text-decoration-line: none;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+  text-shadow: 2px 8px 6px black, 0px -55px 35px black;
+}
+.start-screen a {
+  text-decoration-line: none;
 }
 
 .image {
-    display: flex;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: auto;
 }
-
 
 #remove-screen {
-    text-align: center;
-    margin-top: 20px;
-    text-shadow: 2px 8px 6px white,
-    0px -5px 35px white;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 8px 6px white, 0px -5px 35px white;
 }
 
-a{
-    color: yellow;
-    font-size: 30px; 
-     
+a {
+  color: yellow;
+  font-size: 30px;
 }

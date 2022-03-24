@@ -1,45 +1,33 @@
 * {
-    font-family: 'Press Start 2P', cursive;
-  }
+  font-family: "Press Start 2P", cursive;
+}
 
 a {
-    color: #000000;
-    font-size: 15px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px;
-    background: white;
-    border-bottom: black;
+  color: #000000;
+  font-size: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  background: white;
+  border-bottom: black;
 }
-
 
 body {
-    background-image: url('/img/bodyBG.png');
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 
-
-    /* FONDO DE GAME BOY
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    
-    background-image: url(/img/gbcBG.png);
-    background-repeat:no-repeat;
-    background-size:100% 100%; */
-
-
-
+  background-image: url(/img/gbcBG.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.startScreen a{
-    text-decoration-line: none;
-    
+.startScreen a {
+  text-decoration-line: none;
 }
-
 
 .canvasPosition {
-    display: flex;
-    justify-content: center;
-    padding-top: 2.5%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5%;
 }
-
- 
