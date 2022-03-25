@@ -1,7 +1,7 @@
 const game = {
   title: "Super Penaly Kicks",
   author: "Alfredo & Carlos",
-  upgrede: "Carlos",
+  upgrade: "Carlos",
   license: undefined,
   version: "1.1",
   description:
@@ -36,7 +36,7 @@ const game = {
   },
 
   setContext() {
-    this.canvasDOM = document.querySelector("#myCanvas");
+    this.canvasDOM = document.querySelector(".myCanvas");
     this.ctx = this.canvasDOM.getContext("2d");
   },
 

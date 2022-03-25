@@ -1,3 +1,43 @@
+@-moz-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-o-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.back_to_start_btn {
+  margin-top: 0.2em;
+  text-decoration-line: none;
+  font-size: 2em;
+  font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: -2px 0 0 #fdff2a, -4px 0 0 #df4a42, 2px 0 0 #91fcfe,
+    4px 0 0 #4405fc;
+  animation: blink 1s steps(4, start) infinite;
+}
+
+.back_to_start_btn a {
+  color: white;
+  text-decoration: none;
+  box-shadow: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -12,6 +52,8 @@ body {
   justify-content: center;
   padding-top: 2.5%;
 }
+
+
 
 .startScreen a {
   text-decoration-line: none;

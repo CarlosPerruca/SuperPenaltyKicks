@@ -1,27 +1,32 @@
 class Imagewin {
-    constructor(ctx, canvasSize, posX, posY, imageName, width, height) {
-        this.ctx = ctx
-        this.canvasSize = canvasSize
+  constructor(ctx, canvasSize, posX, posY, imageName, width, height) {
+    this.ctx = ctx;
+    this.canvasSize = canvasSize;
 
-        this.posX = posX
-        this.posY = posY
+    this.posX = posX;
+    this.posY = posY;
 
-        this.width = width
-        this.height = height
+    this.width = width;
+    this.height = height;
 
-        this.imageInstance = undefined
-        this.imageName = imageName
+    this.imageInstance = undefined;
+    this.imageName = imageName;
 
-        this.init()
-    }
+    this.init();
+  }
 
-    init() {
-        this.imageInstance = new Image()
-        this.imageInstance.src = `img/${this.imageName}`
-    }
+  init() {
+    this.imageInstance = new Image();
+    this.imageInstance.src = `img/${this.imageName}`;
+  }
 
-    draw() {
-        this.ctx.drawImage(this.imageInstance, this.posX, this.posY, this.width, this.height)
-    }
-
+  draw() {
+    this.ctx.drawImage(
+      this.imageInstance,
+      this.posX,
+      this.posY,
+      this.width,
+      this.height
+    );
+  }
 }
