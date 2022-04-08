@@ -70,6 +70,7 @@ body {
     width: 800px;
     height: 600px;
     margin: 0 auto;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
