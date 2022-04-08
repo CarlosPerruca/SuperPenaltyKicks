@@ -19,10 +19,6 @@
     }
 }
 
-.arrows_img img {
-    width: 14em;
-}
-
 body {
     margin: 0;
     padding-top: 2.5%;
@@ -33,9 +29,8 @@ body {
 }
 
 .instructions {
-    margin-top: 12em;
     width: 50%;
-    /* background-color: yellowgreen; */
+    background-color: yellowgreen;
     text-align: center;
 }
 .instructions p {
@@ -81,4 +76,8 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.start-screen >.instructions .arrows_img{
+
 }

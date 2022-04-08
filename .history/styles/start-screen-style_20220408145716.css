@@ -19,10 +19,6 @@
     }
 }
 
-.arrows_img img {
-    width: 14em;
-}
-
 body {
     margin: 0;
     padding-top: 2.5%;
@@ -33,7 +29,7 @@ body {
 }
 
 .instructions {
-    margin-top: 12em;
+  
     width: 50%;
     /* background-color: yellowgreen; */
     text-align: center;
@@ -82,3 +78,4 @@ body {
     align-items: center;
     align-content: center;
 }
+

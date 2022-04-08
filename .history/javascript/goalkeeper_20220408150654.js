@@ -42,7 +42,7 @@ class Goalkeeper {
             if (ballDirection === "up") currentThrowArr
             console.log('power es', power)
             console.log("no pasa nada");
-        } else if (power > 250) {//ALLWAYS LOOSE
+        } else if (power > 250) {//se la para
             if (ballDirection === "right") currentThrowArr.splice(1, 2)
             if (ballDirection === "left") {
                 currentThrowArr.splice(0, 1)
